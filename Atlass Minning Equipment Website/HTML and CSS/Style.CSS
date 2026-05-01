@@ -1,0 +1,120 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY (keeps YOUR background image) */
+body {
+      margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #020617;
+}
+
+/* LOGO (left stays) */
+.logo {
+    width: 90px;
+}
+
+/* CENTER TITLE + SEARCH */
+.center-content {
+    flex: 1;
+    text-align: center;
+}
+
+.center-content h1 {
+    font-size: 30px;
+    color: #F97316;
+    margin-bottom: 8px;
+}
+
+.center-content input {
+    padding: 8px 12px;
+    width: 240px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    padding: 15px;
+    padding-top: 50px;
+    
+}
+
+/* Navigation list */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation links */
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Main content */
+.main-content {
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+    padding-top 10 px;
+}
+
+/* About section */
+.about{
+    text-align: center;
+}
+.about-snippet {
+    margin: 40px;
+    padding: 30px;
+    text-align: left;
+    border-radius: 8px;
+}
+
+.products-page .main-content {
+    border: 2px solid #fff;
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.products-page .product-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.products-page .product-card img {
+    width: 100%;
+    height: aouto;
+    object-fit: cover;
+}
+.imag{
+    width: 10px;
+    height: 10px;
+}
